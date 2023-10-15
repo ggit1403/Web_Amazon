@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 300px;
+    box-sizing: border-box;
+    margin: auto;
+    /* padding: 0px; */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.box img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.box .sign-in {
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+
+
+}
+
+.text-a a {
+    text-decoration: none;
+    color: blue;
+}
+
+.text-a a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.need-help a {
+    text-decoration: none;
+    color: blue;
+}
+
+.need-help a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.sign-in .input p {
+    font-weight: bold;
+}
+
+.input {
+    margin-top: 15px;
+}
+
+.input input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid grey;
+}
+
+.sign-in .continue {
+    width: 300px;
+    background-color: rgba(255, 213, 0, 0.93);
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.continue:hover {
+    background-color: rgb(231, 198, 35);
+}
+
+.need-help {
+    margin-top: 20px;
+}
+
+/*----------------------------*/
+.border-bot {
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    position: relative;
+    margin-top: 20px;
+}
+
+.border-bot .new-to-Amazon {
+    position: absolute;
+    top: -15px;
+    left: 120px;
+    background-color: white;
+    padding: 5px;
+    color: grey;
+    font-size: 14px;
+}
+
+.create {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create:hover {
+    background-color: rgba(235, 227, 227, 0.989);
+}
+
+.text-a-black {
+    text-decoration: none;
+    color: black;
+}
