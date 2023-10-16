@@ -36,7 +36,7 @@
 
 .text-a a:hover {
     text-decoration: underline;
-    color: orange;
+    color: rgb(204, 91, 4);
 }
 
 .need-help a {
@@ -46,7 +46,7 @@
 
 .need-help a:hover {
     text-decoration: underline;
-    color: orange;
+    color: rgb(204, 91, 4);
 }
 
 .sign-in .input p {
@@ -90,7 +90,7 @@
     box-sizing: border-box;
     border-bottom: 1px solid grey;
     position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .border-bot .new-to-Amazon {
@@ -107,14 +107,14 @@
     border: 1px solid grey;
     border-radius: 5px;
     height: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .create:hover {
-    background-color: rgba(235, 227, 227, 0.989);
+    background-color: rgba(228, 228, 228, 0.989);
 }
 
 .text-a-black {

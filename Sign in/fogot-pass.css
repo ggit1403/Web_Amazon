@@ -5,14 +5,12 @@
 
 
 .box {
-    width: 300px;
+    width: 350px;
     box-sizing: border-box;
     margin: auto;
     /* padding: 0px; */
-    display: flex;
-    justify-content: center;
-
-
+    /* display: flex;
+    justify-content: center; */
 }
 
 .box img {
@@ -20,35 +18,16 @@
     margin-left: 100px;
 }
 
-.box .sign-in {
+.logo {
     width: 300px;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 25px;
-
-
-}
-
-.fogot {
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-/*--*/
-.fogot a {
-    text-decoration: none;
-    color: blue;
-}
-
-.fogot a:hover {
-    text-decoration: underline;
-    color: rgb(204, 91, 4);
 }
 
 /*---*/
 .need-help a {
-    text-decoration: none;
-    color: blue;
+    color: rgb(3, 113, 229);
 }
 
 .need-help a:hover {
@@ -95,4 +74,16 @@
 .text-a-black {
     text-decoration: none;
     color: black;
+}
+
+.font-size-15px {
+    font-size: 15px;
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+.customer {
+    margin-top: 6px;
+    font-size: 15px;
+    line-height: 20px;
 }

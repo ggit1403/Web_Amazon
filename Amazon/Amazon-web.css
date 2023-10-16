@@ -99,6 +99,7 @@ body {
     justify-content: space-between;
     border-radius: 3px;
     overflow: hidden;
+
 }
 
 .search-container:hover {
@@ -109,6 +110,7 @@ body {
     width: 60px;
     border: none;
     background-color: rgb(230, 227, 227);
+
 }
 
 .search-input {
@@ -117,7 +119,7 @@ body {
     border: none;
     outline: none;
     padding: 3px;
-    font-size: 1.1rem;
+    font-size: 14px;
 }
 
 .search-icon {
@@ -220,6 +222,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-left: 15px;
+
 }
 
 .container-nav ul {

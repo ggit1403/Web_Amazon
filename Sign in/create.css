@@ -24,37 +24,25 @@
     width: 300px;
     border: 1px solid grey;
     border-radius: 5px;
-    padding: 25px;
-
-
+    padding: 15px 25px 25px 25px;
 }
 
-.fogot {
-    margin-top: 10px;
-    font-size: 15px;
-}
 
-/*--*/
-.fogot a {
+.text-a a {
     text-decoration: none;
-    color: blue;
+    color: rgb(8, 107, 213);
 }
 
-.fogot a:hover {
+.text-a a:hover {
     text-decoration: underline;
     color: rgb(204, 91, 4);
 }
 
-/*---*/
 .need-help a {
     text-decoration: none;
     color: blue;
 }
 
-.need-help a:hover {
-    text-decoration: underline;
-    color: rgb(204, 91, 4);
-}
 
 .sign-in .input p {
     font-weight: bold;
@@ -65,11 +53,18 @@
 }
 
 .input input {
-    width: 300px;
+    width: 290px;
     height: 30px;
     border-radius: 5px;
     margin-top: 5px;
     border: 1px solid grey;
+    padding-left: 10px;
+}
+
+.input .note-i img {
+    width: 10.5px;
+    padding: 0;
+    margin: 0;
 }
 
 .sign-in .continue {
@@ -88,11 +83,29 @@
     background-color: rgb(231, 198, 35);
 }
 
-.need-help {
-    margin-top: 20px;
+
+/*----------------------------*/
+.border-bot {
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.create:hover {
+    background-color: rgba(228, 228, 228, 0.989);
 }
 
 .text-a-black {
     text-decoration: none;
     color: black;
+}
+
+.text-a {
+    font-size: 14px;
+}
+
+.margin-top-30px {
+    margin-top: 30px;
 }
