@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    box-sizing: border-box;
+
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.142);
+}
+
+main .sign-in-head {
+    box-sizing: border-box;
+    width: 1100px;
+    height: 300px;
+
+}
+
+.sign-in-head .box-sign-in {
+    background-color: aqua;
+    margin: 20px;
+    width: 100%;
+    height: 250px;
+    padding-top: 40px;
+}
+
+.sign-in-head .box-sign-in .photo-left {
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.sign-in-head.box-sign-in .noidung-phai {
+    float: right;
+    width: 600px;
+
+
+}
+
+.box-sign-in::after {
+    content: "";
+    clear: both;
+}
+
+.box-white {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(98, 0, 255);
+}
