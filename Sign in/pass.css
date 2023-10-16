@@ -65,11 +65,12 @@
 }
 
 .input input {
-    width: 300px;
+    width: 290px;
     height: 30px;
     border-radius: 5px;
     margin-top: 5px;
     border: 1px solid grey;
+    padding-left: 10px;
 }
 
 .sign-in .continue {
