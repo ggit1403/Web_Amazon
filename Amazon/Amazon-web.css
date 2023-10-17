@@ -618,10 +618,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 .backtotop {
     width: 100%;
     height: 50px;
