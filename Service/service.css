@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 14px;
     line-height: 20px;
-    font-family: "Amazon Ember", Arial, sans-serif;
+
 }
 
 /*--------Nav-bar--------*/
@@ -18,12 +18,12 @@ body{
     min-width: 1000px;
     height: 60px;
     font-size: 16px;
-    box-shadow: 0 0 12px 0 rgba(0,0,0,.25);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .25);
     background: #007185;
     color: #fff;
 }
 
-header{
+header {
     display: block;
 }
 
@@ -33,24 +33,24 @@ header{
     border-right: 1px solid #fff;
 }
 
-.nav-header a{
+.nav-header a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav-item.active{
+.nav-item.active {
     border-bottom: 2px solid #fff;
     margin-left: 26px;
 }
 
-.nav-item{
+.nav-item {
     margin-left: 26px;
 }
 
 
 
 /*--------Banner------*/
-.page-wrapper.banner{
+.page-wrapper.banner {
     background-color: #007185;
     min-height: 0;
     padding: 45px 0px;
@@ -58,13 +58,13 @@ header{
     font: 14px;
 }
 
-.page-container{
+.page-container {
     max-width: 1300px;
     margin: auto;
     padding: 0 20px;
 }
 
-div{
+div {
     display: block;
 }
 
@@ -79,13 +79,13 @@ h1 {
     margin-inline-end: 0px;
 }
 
-p.subtext-container{
+p.subtext-container {
     color: #fff;
     font: 20px;
     margin: 12px 0px;
 }
 
-div.issue-card-container{
+div.issue-card-container {
     color: #0F1111;
     font: 14px;
     margin: 24px - 12px;
@@ -93,21 +93,21 @@ div.issue-card-container{
     flex-wrap: wrap;
 }
 
-div.issue-card-wrapper{
+div.issue-card-wrapper {
     width: 33.33%;
     padding: 12px;
 }
 
-div.card{
+div.card {
     height: 94px;
     background-color: #fff;
     border-radius: 5px;
     border: 1px solid #ddd;
     padding: 16px 20px;
-    display: flex;   
+    display: flex;
 }
 
-div.card img{
+div.card img {
     width: 60px;
     vertical-align: top;
     max-width: 100%;
@@ -116,7 +116,7 @@ div.card img{
     overflow: clip;
 }
 
-.card-detail{
+.card-detail {
     display: flex;
     justify-content: center;
     flex: 1 1;
@@ -124,7 +124,7 @@ div.card img{
     min-width: 0;
 }
 
-.card-title{
+.card-title {
     font-size: 16px;
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -136,14 +136,14 @@ div.card img{
 }
 
 /*--------Page--------*/
-.page-wrapper{
+.page-wrapper {
     background: #f7fafa;
     min-height: 80vh;
     padding-top: 45px;
     padding-bottom: 45px;
 }
 
-label{
+label {
     display: block;
     padding-left: 2px;
     padding-bottom: 2px;
@@ -151,21 +151,21 @@ label{
     cursor: default;
 }
 
-.heading h2{
+.heading h2 {
     color: black;
     font-size: 24px;
     line-height: 32px;
     padding-bottom: 4px;
 }
 
-.search{
+.search {
     position: relative;
     display: inline-block;
     width: 100%;
     margin-right: 0;
 }
 
-.fa-search{
+.fa-search {
     position: absolute;
     top: 50%;
     margin-top: -7px;
@@ -176,7 +176,7 @@ label{
     vertical-align: top;
 }
 
-.input{
+.input {
     padding-left: 29px;
     background-color: #fff;
     height: 31px;
@@ -184,7 +184,7 @@ label{
     line-height: normal;
     border: 1px solid #888C8C;
     border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(15,17,17,.15) inset;
+    box-shadow: 0 1px 2px rgba(15, 17, 17, .15) inset;
     outline: 0;
     float: none;
     margin-right: 0;
@@ -199,23 +199,23 @@ label{
     vertical-align: top;
 }*/
 
-.help-container{
+.help-container {
     display: flex;
     align-items: flex-start;
 }
 
-.help-topics-list-wrapper{
+.help-topics-list-wrapper {
     float: left;
     margin-right: 45px;
 }
 
-.help-topics{
+.help-topics {
     list-style-type: none;
     margin: 10px 0 0;
     display: block;
 }
 
-.help-topics ul{
+.help-topics ul {
     padding: 0;
     margin: 0px 0px 0px 18px;
     margin-block-start: 1em;
@@ -225,7 +225,7 @@ label{
     padding-inline-start: 40px;
 }
 
-.help-topics li{
+.help-topics li {
     float: center;
     margin: 5px 0 0;
     min-width: 227px;
@@ -244,18 +244,18 @@ label{
     flex-wrap: wrap;
 }
 
-.article-wrapper{
+.article-wrapper {
     display: flex;
     flex-wrap: wrap;
     /*display: none;*/
 }
 
-.help-content-wrapper .help-card-wrapper{
+.help-content-wrapper .help-card-wrapper {
     width: 50%;
     padding: 10px;
 }
 
-.card-desc{
+.card-desc {
     font-size: 12px;
     color: #767676;
     margin-top: 4px;
@@ -265,4 +265,3 @@ label{
     overflow: hidden;
     padding-left: 10px;
 }
-

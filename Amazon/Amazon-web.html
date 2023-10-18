@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/Amazon/Amazon-img/Icon-amazon.png" />
     <title>Amazon.com.Spend less, Smile</title>
-    <link rel="stylesheet" href="Amazon-web.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Amazon-web.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
 </head>
@@ -19,14 +20,14 @@
             <div class="logo-container border-white">
                 <a href="Amazon-web.html">
                     <div class="logo">
-                        <img src="/Amazon/Amazon-img/amazon-sign-in.webps" alt="">
+                        <img src="/Amazon/Amazon-web.html" alt="">
                     </div>
                 </a>
                 <span class="dotin"></span>
             </div>
 
             <div class="address-container border-white">
-                <a class="location-btn" href="#ch-location">
+                <a href=""><!--#ch-location class="location-btn"-->
                     <p class="hello">Deliver to</p>
                 </a>
                 <div class="icon-address">
@@ -43,38 +44,50 @@
                         </header>
                         <div class="form-content-wrapper">
                             <div class="address-block">
-                                <div class="announcement">Delivery options and delivery speeds may vary for different locations</div>
+                                <div class="announcement">Delivery options and delivery speeds may vary for different
+                                    locations</div>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-warning" type="button">Sign in to see your address</button>
+
+                                    <a href="/Sign in/sign-in-acc.html">
+                                        <div class="btn btn-warning">Sign in to see your address</div>
+                                    </a>
                                 </div>
                                 <div class="text-divider">or enter a US zip code</div>
                                 <div class="row">
                                     <div class="col-8">
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                        <input type="text" class="form-control" aria-label="Sizing example input"
+                                            aria-describedby="inputGroup-sizing-sm">
                                     </div>
                                     <div class="col-4">
                                         <div class="d-grid gap-2">
-                                            <button type="button" class="btn btn-light" style="border: 1px solid #565959;">Apply</button>
+                                            <button type="button" class="btn btn-light"
+                                                style="border: 1px solid #565959;">Apply</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="text-divider">or</div>
                                 <div class="col-12">
                                     <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%; color: #333; background-color: #d6d6d6;">
-                                          Vietnam
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="width: 100%; color: #333; background-color: #d6d6d6;">
+                                            Vietnam
                                         </button>
                                         <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" href="#" style="color: #333;">United Kingdom</a></li>
-                                          <li><a class="dropdown-item" href="#" style="color: #333;">Japan</a></li>
-                                          <li><a class="dropdown-item" href="#" style="color: #333;">USA</a></li>
-                                          <li><a class="dropdown-item" href="#" style="color: #333;">South Georgia and the South Sandwich Islands</a></li>
+                                            <li><a class="dropdown-item" href="#" style="color: #333;">United
+                                                    Kingdom</a></li>
+                                            <li><a class="dropdown-item" href="#" style="color: #333;">Japan</a></li>
+                                            <li><a class="dropdown-item" href="#" style="color: #333;">USA</a></li>
+                                            <li><a class="dropdown-item" href="#" style="color: #333;">South Georgia and
+                                                    the South Sandwich Islands</a></li>
                                         </ul>
-                                      </div>
+                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-9"></div>
-                                    <div class="col-3"><button class="btn btn-warning btn-sm" type="button" style="width: 100%; margin-top: 12px;">Done</button></div>
+                                    <div class="col-3"><a href="/Amazon/Amazon-web.html"><button
+                                                class="btn btn-warning btn-sm" type="button"
+                                                style="width: 100%; margin-top: 12px;">Done</button></a></div>
                                 </div>
                             </div>
                         </div>
@@ -248,12 +261,14 @@
 
                 </div>
 
-                <div class="image-btn-container">
+                <a href="/Holiday Gift Guide/holiday.html">
+                    <div class="image-btn-container">
 
-                    <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
-                    <button class="slider-btn" id="slide-btn-right"><i
-                            class="fa-solid fa-chevron-right"></i></i></button>
-                </div>
+                        <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="slider-btn" id="slide-btn-right"><i
+                                class="fa-solid fa-chevron-right"></i></i></button>
+                    </div>
+                </a>
             </div>
         </section>
 
@@ -822,7 +837,9 @@
         </footer>
 
         <script src="javascript.js" type="module"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script> -->
     </div>
 </body>
 
