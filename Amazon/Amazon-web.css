@@ -215,6 +215,11 @@ body {
     height: 40px;
     background-color: #232f3d;
     margin: 0;
+
+}
+
+.nav li {
+    font-size: 16px;
 }
 
 .container-nav {
@@ -222,6 +227,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-left: 15px;
+
 
 }
 
@@ -320,8 +326,12 @@ body {
     display: flex;
     transition: transform 0.3s;
 
-
 }
+
+.sidebar-container-navigation .sidebar-left-part p {
+    margin: 15px 0px;
+}
+
 
 .slidebar-show {
     transform: translateX(0%);
