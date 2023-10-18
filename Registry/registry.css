@@ -63,7 +63,7 @@ section li:hover {
 }
 
 .test-img img {
-    width: 1500px;
+    width: 1450px;
 }
 
 .noidung-test-img {
@@ -207,4 +207,8 @@ section li:hover {
 
 .top-margin30px {
     margin-top: 30px;
+}
+
+.img-green img {
+    width: 1450px;
 }

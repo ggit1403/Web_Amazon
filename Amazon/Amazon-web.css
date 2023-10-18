@@ -12,7 +12,8 @@
 }
 
 body {
-    margin: 0;
+    width: 1450px;
+    margin: auto;
 }
 
 .header {
@@ -93,7 +94,7 @@ body {
 .search-container {
     background-color: red;
     margin-left: 25px;
-    width: 60%;
+    width: 58%;
     display: flex;
     height: 40px;
     justify-content: space-between;
