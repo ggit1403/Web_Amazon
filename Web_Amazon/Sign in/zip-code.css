@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 350px;
+    box-sizing: border-box;
+    margin: auto;
+    /* padding: 0px; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+.box img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+/*---*/
+.need-help a {
+    text-decoration: none;
+    color: rgb(3, 113, 229);
+}
+
+.need-help a:hover {
+    text-decoration: underline;
+    color: rgb(204, 91, 4);
+}
+
+.sign-in .input p {
+    font-weight: bold;
+}
+
+.input {
+    margin-top: 15px;
+}
+
+.input input {
+    width: 290px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+.sign-in .continue {
+    width: 300px;
+    background-color: rgba(255, 213, 0, 0.93);
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.continue:hover {
+    background-color: rgb(231, 198, 35);
+}
+
+.need-help {
+    margin-top: 20px;
+}
+
+.text-a-black {
+    text-decoration: none;
+    color: black;
+}
+
+.font-size-15px {
+    font-size: 15px;
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+.customer {
+    margin-top: 6px;
+    font-size: 15px;
+    line-height: 20px;
+}
