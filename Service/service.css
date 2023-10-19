@@ -27,6 +27,10 @@ header {
     display: block;
 }
 
+.nav-header {
+    z-index: 0;
+}
+
 .nav-header .cs-title {
     padding: 0 24px;
     line-height: 37px;
