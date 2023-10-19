@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -12,6 +12,7 @@
 }
 
 body {
+    /* box-sizing: border-box; */
     width: 1450px;
     margin: auto;
 }
