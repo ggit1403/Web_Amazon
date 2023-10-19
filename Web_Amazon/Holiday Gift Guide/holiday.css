@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    box-sizing: border-box;
+    width: 1450px;
+}
+
+main {
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+}
+
+main img {
+    width: 1400px;
+    margin: 20px 0px;
+    margin-bottom: 40px;
+}
+
+.shop-gifts {
+    width: 1350px;
+    margin: auto;
+}
+
+.gift-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gifts img {
+    width: 216px;
+    border-radius: 5px;
+}
+
+.gifts p {
+    margin-top: -40px;
+}
+
+.gifts a {
+    color: black;
+    font-size: 18px;
+}
+
+.shop-by-price {
+    margin-top: 30px;
+}
+
+.by-price img {
+    width: 350px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.holiday-deals {
+    margin: 0px 20px;
+    margin-bottom: 50px;
+}
+
+.deals img {
+    width: 160px;
+    height: 260px;
+}
+
+.box-red {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.text-red {
+    color: rgb(204, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.deals {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.deal {
+    width: 220px;
+}
+
+.sale-to a {
+    color: black;
+}
+
+.sale-to a:hover {
+    color: rgb(187, 78, 0);
+}
+
+.sale-to p {
+    margin-bottom: 10px;
+}
+
+
+
+.host {
+    margin-top: 20px;
+    width: 800px;
+}
+
+.host>.shop-gifts>h2 {
+    margin-left: 30px;
+}
+
+.width-800px {
+    width: 1120px;
+    margin-left: 150px;
+}
+
+.image-4 img {
+    width: 666px;
+    margin: 20px 10px 20px 10px;
+}
+
+.image-4 {
+    margin: 10px;
+}
+
+.image-4-1 img {
+    width: 325px;
+
+}
+
+.image-4-1 {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.142);
+}
+
+
+main {
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+main .sign-in-head {
+    box-sizing: border-box;
+    width: 1100px;
+
+}
+
+.sign-in-head .box-sign-in {
+    background-color: white;
+    margin: 20px;
+    width: 100%;
+    height: 280px;
+    padding-top: 40px;
+}
+
+.sign-in-head .box-sign-in .photo-left {
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.photo-left img {
+    width: 360px;
+}
+
+.sign-in-head.box-sign-in .noidung-phai {
+    float: right;
+    width: 600px;
+}
+
+.box-sign-in::after {
+    content: "";
+    clear: both;
+}
+
+.noidung-phai .color007185 a {
+    color: #007185;
+    font-size: 17px;
+}
+
+.noidung-phai h2 {
+    margin-bottom: 2px;
+}
+
+.noidung-phai .sign-in-lr {
+    width: 750px;
+    margin-top: 16px;
+}
+
+.noidung-phai .sign-in-l {
+    float: left;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFD814;
+    display: flex;
+    justify-content: center;
+}
+
+.noidung-phai .sign-in-r {
+    float: right;
+    width: 120px;
+    border: 1px solid rgba(128, 128, 128, 0.273);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-lr a {
+    color: black;
+    font-size: 18px;
+}
+
+.sign-in-lr::after {
+    content: "";
+    clear: both;
+}
+
+.box-white {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.noidung-text {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.noidung-text a {
+    color: #007185;
+}
+
+.noidung-text a:hover {
+    color: rgb(204, 91, 4);
+    text-decoration: underline;
+}
+
+.sanpham {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.border-radius5px {
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.273);
+    border-radius: 5px;
+}
+
+.border-radius5px h3 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.noidung-sanpham {
+    margin: 30px 140px;
+    position: relative;
+}
+
+.all-sanpham img {
+    width: 170px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.all-sanpham {
+    width: 170px;
+}
+
+.all-sanpham a {
+    color: #007185;
+}
+
+.all-sanpham a:hover {
+    color: rgb(204, 91, 4);
+}
+
+.all-sanpham .gia-sanpham a {
+    color: black;
+    font-size: 20px;
+}
+
+.so-luot-mua span {
+    color: rgb(204, 91, 4);
+    font-size: 25px;
+}
+
+.so-luot-mua a {
+    font-size: 15px;
+}
+
+.all-sanpham .gia-ship {
+    font-size: 14px;
+}
+
+.border-bot {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.273);
+    margin: 20px;
+
+}
+
+.box-sign-in-footer {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-in-footer {
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFD814;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+
+}
+
+.sign-in-footer a {
+    color: black;
+}
+
+.start-here {
+    margin-bottom: 20px;
+}
+
+.start-here a {
+    color: #007185;
+}
+
+.start-here a:hover {
+    color: red;
+}
+
+
+.sanpham-2 {
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+.sanpham-3 {
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+
+.sanpham-4 {
+    position: absolute;
+    top: 0;
+    left: 750px;
+}
+
+.sanpham-5 {
+    position: absolute;
+    top: 0;
+    left: 1000px;
+}
