@@ -401,3 +401,59 @@ a {
     color: #c6c6c6;
     text-decoration: none;
 }
+
+/*----Account & Lists----*/
+.triange{
+    position: absolute;
+    z-index: 1000;
+    right: 222px;
+    top: 41px;
+    background-color: transparent;
+    width: 0px;
+    height: 0px;
+    display: none;
+    transition: all 2s;
+    border: 12px solid blue;
+    border-color: transparent transparent white transparent;
+}
+
+.hdn-sign{
+    position: absolute;
+    z-index: 1000;
+    transition: all 2s;
+    width: 500px;
+    height: 500px;
+    display: none;
+    top: 65px;
+    right: 80px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.hdn-table{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    height: 100%;
+}
+.hdn-table h3{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.hdn-table li{
+    color: rgb(84, 84, 84);
+    font-size: 13px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.hdn-line{
+    width: 0.5px;
+    color: black;
+    background-color: rgb(190, 190, 190);
+    /*height: 300px;*/
+}
+
+.login-container:hover + .triange,
+.login-container:hover ~ .hdn-sign {
+    display: block; 
+}
