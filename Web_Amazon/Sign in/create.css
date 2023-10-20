@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 300px;
+    box-sizing: border-box;
+    margin: auto;
+    /* padding: 0px; */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.box img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.box .sign-in {
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px 25px 25px 25px;
+}
+
+
+.text-a a {
+    text-decoration: none;
+    color: rgb(8, 107, 213);
+}
+
+.text-a a:hover {
+    text-decoration: underline;
+    color: rgb(204, 91, 4);
+}
+
+.need-help a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.sign-in .input p {
+    font-weight: bold;
+}
+
+.input {
+    margin-top: 15px;
+}
+
+.input input {
+    width: 290px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+.input .note-i img {
+    width: 10.5px;
+    padding: 0;
+    margin: 0;
+}
+
+.sign-in .continue {
+    width: 300px;
+    background-color: rgba(255, 213, 0, 0.93);
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.continue:hover {
+    background-color: rgb(231, 198, 35);
+}
+
+
+/*----------------------------*/
+.border-bot {
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.create:hover {
+    background-color: rgba(228, 228, 228, 0.989);
+}
+
+.text-a-black {
+    text-decoration: none;
+    color: black;
+}
+
+.text-a {
+    font-size: 14px;
+}
+
+.margin-top-30px {
+    margin-top: 30px;
+}
