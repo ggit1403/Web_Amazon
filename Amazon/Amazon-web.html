@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
     <title>Amazon.com.Spend less, Smile</title>
-    <link rel="stylesheet" href="/Head/head-cart.css">
+    <link rel="stylesheet" href="/head/head-cart.css">
     <link rel="stylesheet" href="/head/head.css">
     <link rel="stylesheet" href="/Footer/footer.css">
     <link rel="stylesheet" href="Amazon-web.css" />
@@ -32,7 +32,7 @@
             </div>
 
             <div class="address-container border-white">
-                <a href=""><!--class="location-btn" #ch-location-->
+                <a class="location-btn" href="#ch-location"><!--class="location-btn" #ch-location-->
                     <p class="hello">Deliver to</p>
                 </a>
                 <div class="icon-address">
@@ -40,64 +40,75 @@
                     <a class="location-btn" href="#ch-location">
                         <p>Vietnam</p>
                     </a>
-                </div>
-                <div class="location overlay" id="ch-location">
-                    <a href="#" class="overlay-close"></a>
-                    <div class="location-form wrapper">
-                        <header class="form-header">
-                            <h4 class="form-header-content">Choose your location</h4>
-                        </header>
-                        <div class="form-content-wrapper">
-                            <div class="address-block">
-                                <div class="announcement">Delivery options and delivery speeds may vary for different
-                                    locations</div>
-                                <div class="d-grid gap-2">
+                    <div class="location overlay" id="ch-location">
+                        <a href="#" class="overlay-close"></a>
+                        <div class="location-form wrapper">
+                            <header class="form-header">
+                                <h4 class="form-header-content" style="color: #333;">Choose your location</h4>
+                            </header>
+                            <div class="form-content-wrapper">
+                                <div class="address-block">
+                                    <div class="announcement">Delivery options and delivery speeds may vary for
+                                        different
+                                        locations</div>
+                                    <div class="d-grid gap-2">
 
-                                    <a href="/Sign in/sign-in-acc.html">
-                                        <div class="btn btn-warning">Sign in to see your address</div>
-                                    </a>
-                                </div>
-                                <div class="text-divider">or enter a US zip code</div>
-                                <div class="row">
-                                    <div class="col-8">
-                                        <input type="text" class="form-control" aria-label="Sizing example input"
-                                            aria-describedby="inputGroup-sizing-sm">
+                                        <a href="/Sign in/sign-in-acc.html">
+                                            <div class="btn btn-warning sign-in-btn" style="width: 350.4px;">Sign in to
+                                                see your address</div>
+                                        </a>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="d-grid gap-2">
-                                            <button type="button" class="btn btn-light"
-                                                style="border: 1px solid #565959;">Apply</button>
+                                    <div class="text-divider">or enter a US zip code</div>
+                                    <div class="row" style="display: flex; justify-content: space-between;">
+                                        <div class="col-8" style="width: 240px;">
+                                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                                aria-describedby="inputGroup-sizing-sm">
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-grid gap-2">
+                                                <button type="button" class="btn btn-light"
+                                                    style="border: 1px solid #565959; width: 102px;">Apply</button>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="text-divider">or</div>
-                                <div class="col-12">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false"
-                                            style="width: 100%; color: #333; background-color: #d6d6d6;">
-                                            Vietnam
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#" style="color: #333;">United
-                                                    Kingdom</a></li>
-                                            <li><a class="dropdown-item" href="#" style="color: #333;">Japan</a></li>
-                                            <li><a class="dropdown-item" href="#" style="color: #333;">USA</a></li>
-                                            <li><a class="dropdown-item" href="#" style="color: #333;">South Georgia and
-                                                    the South Sandwich Islands</a></li>
-                                        </ul>
+                                    <div class="text-divider">or</div>
+                                    <div class="col-12">
+                                        <div class="dropdown" style="width: 350.4px;">
+
+
+                                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false"
+                                                style="width: 100%; color: #333; background-color: #d6d6d6; display: flex; justify-content: space-between;">
+                                                Vietnam <i class="fa-solid fa-angle-down"></i>
+                                            </button>
+
+
+
+                                            <ul class="dropdown-menu" style="width: 350.4px;">
+                                                <li><a class="dropdown-item" href="#" style="color: #333;">United
+                                                        Kingdom</a></li>
+                                                <li><a class="dropdown-item" href="#" style="color: #333;">Japan</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#" style="color: #333;">USA</a></li>
+                                                <li><a class="dropdown-item" href="#" style="color: #333;">South Georgia
+                                                        and
+                                                        the South Sandwich Islands</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-9"></div>
-                                    <div class="col-3"><a href="/Amazon/Amazon-web.html"><button
-                                                class="btn btn-warning btn-sm" type="button"
-                                                style="width: 100%; margin-top: 12px;">Done</button></a></div>
+                                    <div class="row">
+                                        <div class="col-9"></div>
+                                        <div class="col-3"><a href="/Amazon/Amazon-web.html"><button
+                                                    class="btn btn-warning btn-sm sign-in-btn" type="button"
+                                                    style="width: 60px; margin-top: 12px; float: right;">Done</button></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <div class="search-container">
