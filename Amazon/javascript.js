@@ -34,6 +34,7 @@ function handleSlideRight() {
 
 
 /***** sidebar navigation  */
+//tao ra bien tham chieu den pt html
 const sidebarNavigationEl = document.getElementById("sidebar-container-navigation-id")
 const sidebarOpenNavigationEl = document.getElementById("open-nav-sidebar")
 const sidebarCloseNavigationEl = document.getElementById("sidebar-navigation-close")
@@ -52,7 +53,7 @@ sidebarCloseNavigationEl.addEventListener("click", () => {
 
 
 //Exciting deals
- 
+
 console.log(todayDeal)
 let todayDealProductListEl = document.querySelector(".today_deals_product_list")
 console.log(todayDealProductListEl)
@@ -63,7 +64,7 @@ let todayDeallength = todayDeal.length
 
 for (let i = 0; i < todayDeallength; i++) {
     // console.log(todayDeal[i])
-
+    // tham chieu
     todayDealProductHTML += `
         <div class="today_deals_product_item">
                 <div class="todayDeals_product_image">
@@ -93,12 +94,12 @@ let startProduct = 0;
 
 today_deal_btn_prevEl.addEventListener("click", () => {
 
-   
-    if(startProduct < 0){
+
+    if (startProduct < 0) {
         startProduct += 500
     }
-    if(startProduct > -2000){
-        today_deals_product_itemEl.forEach(el =>{
+    if (startProduct > -2000) {
+        today_deals_product_itemEl.forEach(el => {
             el.style.transform = `translateX(${startProduct}%)`
         })
     }
@@ -107,15 +108,15 @@ today_deal_btn_prevEl.addEventListener("click", () => {
 
 today_deal_btn_nextEl.addEventListener("click", () => {
     // alert("next")
-    
-    if(startProduct > -1500){
+
+    if (startProduct > -1500) {
         startProduct -= 500
     }
 
-    today_deals_product_itemEl.forEach(el =>{
+    today_deals_product_itemEl.forEach(el => {
         el.style.transform = `translateX(${startProduct}%)`
     })
-    
-    
+
+
 })
 
